@@ -1,9 +1,18 @@
 
-## 🐧프로젝트 시작
 
+<div align='center'>
+<img src='https://github.com/user-attachments/assets/a352c3e8-a4e9-4363-9ddf-12c5a5688e8c' width='450px'> 
+
+<h3>취업 매칭 서비스 : Hire Higher</h3>
+
+<i><p>한국에서의 시작을 더 높이</p></i>
+
+</div> <br><br>
+
+
+## 🐧프로젝트 소개
 
 ### 서비스 소개
-<img src='https://github.com/user-attachments/assets/83c434a2-c3bb-40fb-b0a5-754573ce0e0a' width='1200px'> 
 
 
 <p><strong>Hire higher</strong>는 외국인 근로자와 고용주 간의 안전한 채용 계약을 지원하는 서비스입니다.
@@ -14,7 +23,9 @@
 <p>2024년 9월 2일 ~ 2024년 11월 15일</p><br/>
 
 ### 링크
-**배포링크**: https://hire-higher.netlify.app/
+**배포링크(FE)**: https://hire-higher.netlify.app/
+
+**배포링크(BE)**: https://api.hirehigher.site/
 
 **노션링크**: [https://kibong.notion.site/e9eeabea8c0d415eaf24f5b4d67deceb](https://www.notion.so/e9eeabea8c0d415eaf24f5b4d67deceb?pvs=21)
 
@@ -45,6 +56,14 @@
 ## ⚙️ 시스템 아키텍처
 | ![아키텍처](https://github.com/user-attachments/assets/c9566d79-e829-4311-8bdb-c36dbc9433e4) |
 | :------: |
+
+<br><br><br/><br/>
+
+
+## 🔨 ERD
+|![ERD](https://github.com/user-attachments/assets/374c145a-9ab3-4edb-881a-92010cdbef2f) |
+| :------: |
+
 
 <br><br><br/><br/>
 

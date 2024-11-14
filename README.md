@@ -175,7 +175,7 @@
 | ![상태](https://github.com/user-attachments/assets/a91f722e-17eb-4271-b5c9-b5233693fc0e) |
 | :------: |
 | ![근로](https://github.com/user-attachments/assets/e774de9e-6ad2-4334-8c29-4583bb85b6ac) |
-| 계약서 |
+|계약서 |
 
 <p> 고용주가 채용을 선택하여 근로계약서 작성했다면, 근로자는 근로계약서 서명하기 버튼을 통해 근로계약서 내용을 확인할 수 있습니다.  근로자가 서명 후 제출하기 버튼을 누르면 채용 과정이 마무리 됩니다. </p>
 

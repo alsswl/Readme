@@ -1,8 +1,10 @@
 
-## 프로젝트 시작
+## 🐧프로젝트 시작
+
 
 ### 서비스 소개
-<사진 추가해야함!>
+<img src='https://github.com/user-attachments/assets/83c434a2-c3bb-40fb-b0a5-754573ce0e0a' width='1200px'> 
+
 
 <p><strong>Hire higher</strong>는 외국인 근로자와 고용주 간의 안전한 채용 계약을 지원하는 서비스입니다.
 구인글 게시판과 다국어 표준 근로계약서, 서명 시스템을 통해 양측의 신뢰성을 확보하며, 고용주는 근로자의 비자 정보를 검증하여 안전하게 채용을 진행할 수 있습니다.</p><br/>
@@ -22,13 +24,12 @@
 
 **커밋 컨벤션:** [https://www.notion.so/kibong/9fa2336e3b994e90b26d8cc3fd0f71ff](https://www.notion.so/9fa2336e3b994e90b26d8cc3fd0f71ff?pvs=21)
 
-**이슈:** : 
+**이슈:** [https://www.notion.so/kibong/Issues-b58e26b269824d6a8943b3b90965cf21](https://www.notion.so/b58e26b269824d6a8943b3b90965cf21?pvs=21)
 
-<hr><br/><br/>
+<br><br><br/><br/>
 
 
 ## 👋 팀 소개
-
 
 
 | **강병현** | **김지안** | **이용진** | **임세빈** | **김민지** | **배민수** | **이택** | **이은경** |
@@ -39,29 +40,132 @@
 
 프론트엔드 4인, 백엔드 4인으로 이루어진 8인 팀 내가먹은쿠키 입니다.
 
-<br><br><hr><br/><br/>
+<br><br><br/><br/>
  
+## ⚙️ 시스템 아키텍처
+| ![아키텍처](https://github.com/user-attachments/assets/c9566d79-e829-4311-8bdb-c36dbc9433e4) |
+| :------: |
+
+<br><br><br/><br/>
 
 ## 📃 주요기능 소개
 
-### 1. 공통 (사업주/근로자) 홈페이지
-| <img src="https://github.com/user-attachments/assets/0955b52f-a547-41ea-8364-30ca6f991e82" alt="홈페이지" /> | 
-| :------:
-| 홈페이지 |
+## 1. 공통 (사업주/근로자) 홈페이지
+### 1.1 한국어/베트남 번역 기능
+| ![번역](https://github.com/user-attachments/assets/167666fd-950a-4d87-94c8-eaf7a7b92e7a) |
+| :------: |
+
+<p> 사용자(고용주/근로자)는 헤더에 위치한 번역 옵션에서 한국어 또는 베트남어를 선택할 수 있으며, 선택한 언어로 모든 페이지가 번역됩니다. </p> <br><br>
+
+### 1.2 가입 및 로그인
+
+| <img src="https://github.com/user-attachments/assets/4ebbda52-ab60-4767-a18e-e5311c3a74f0" alt="로그인" /> |
+| :------: |
+
+<p> 사용자(고용주/근로자)는 Google 계정을 통해 로그인 및 가입을 진행할 수 있습니다. 처음 서비스를 이용하는 경우 가입 절차가 진행되며, 기존에 가입한 사용자는 자동으로 로그인이 완료되며 메인 페이지로 이동됩니다. </p> <br><br>
+
+### 1.3 가입 및 로그인
+| <img src="https://github.com/user-attachments/assets/4055ae74-abd6-4f6d-b047-8cb3bc0b554c" alt="선택" /> |
+| :------: |
+
+<p> 처음 서비스에 접근하는 사용자는 가입 페이지로 이동하여 고용주인지 근로자인지 선택한 후 가입 절차를 진행합니다. </p> <br><br>
+
+### 1.4 구인글 상세 
+| ![recruitDetail](https://github.com/user-attachments/assets/b7265872-e8ca-4a97-bf0e-7b97f14574da) |
+| :------: |
+
+<p> 미가입자와 근로자는 고용주가 등록한 구인 정보를 확인할 수 있으며, 근로자는 해당 페이지에서 지원서를 작성하여 제출할 수 있습니다. </p> <br><br>
 
 
-<div style="display: flex; justify-content: center;" align="center">
-  
-</div>
-
-### 구인글 상세
-<div >
-  <img src="https://github.com/user-attachments/assets/66871c25-9bd7-49b3-a1c2-7e471c3a6a5b" alt="홈페이지" width="700px" />
 
 
 
+## 2. 고용주 기준
+### 2.1. 회사 등록
+| ![회사등록](https://github.com/user-attachments/assets/c97c6205-1555-4aaa-91e2-97869db00f3a) |
+| :------: |
 
-## 기능 구현 세부 사항
+<p>고용주는 본인이 운영하는 회사를 등록할 수 있습니다. </p> <br><br>
+
+
+
+### 2.2. 구인글 등록
+|![구인등록](https://github.com/user-attachments/assets/213b9a8f-66a8-4bc6-8091-26dcd9ff0cf8) |
+| :------: |
+
+<p>본인이 등록한 회사에 대한 구인 글을 등록합니다. 해당 구인글을 홈페이지 메인 화면에 등록되며, 서비스를 이용하는 사용자들이 해당 구인글을 볼 수 있습니다. </p> <br><br>
+
+
+### 2.3. 마이페이지, 등록 회사 확인 및 지원자 목록 확인
+
+| ![마이페이지](https://github.com/user-attachments/assets/efacf0a4-e5a7-4175-bb1d-8ba719f8f144) | ![회사목록](https://github.com/user-attachments/assets/5807409e-19e5-4266-ac87-07218547e9b3) |
+| :------: |  :------: |
+| 고용주 마이페이지 |  지원자 목록 확인|
+
+<p>고용주는 마이페이지에서 등록한 회사 목록을 조회하고, 회사 선택 시 구인글 목록을, 구인글 선택 시 지원자 목록을 확인할 수 있습니다.</p> <br><br>
+
+
+
+### 2.4. 이력서 및 지원서 확인
+
+| ![지원서확인1](https://github.com/user-attachments/assets/94626fa9-f000-4ce1-a0ac-7a49b0087c71) | ![지원서확인2](https://github.com/user-attachments/assets/522a7027-01f6-4155-9938-9dd9d40a8d1f) |
+| :------: |  :------: |
+| 전체 화면 |  이력서 및 지원서 확인 확인 |
+
+<p>고용주는 지원자 목록에서 각 지원자의 지원서를 확인할 수 있으며, 채용을 원하는 지원자에 대해서는 '계약하기' 버튼을 통해 채용 절차를 진행할 수 있습니다.</p> <br><br>
+
+
+### 2.5. 근로계약서 작성
+
+| ![근로계약서안내](https://github.com/user-attachments/assets/8ba52281-05a3-4eb6-8102-e6eed73277d5) | ![근로계약서](https://github.com/user-attachments/assets/c46bf27e-a229-4dd0-a004-652e8d66a28b) |
+| :------: |  :------: |
+| 고용주 주의사항 |  근로계약서 작성 |
+
+<p> 채용 과정은 근로계약서 작성으로 시작됩니다. 고용주는 계약서 작성 전 모달에서 지원자의 외국인 등록번호와 비자 발급일자를 확인하고, 이 정보를 토대로 Hi Korea에서 정보를 검증할 수 있습니다. 고용주가 근로계약서 작성 및 사인을 등록하면, 근로자에게 계약서 내용이 전달되며, 근로자가 최종 서명하면 채용이 완료됩니다. </p> <br><br>
+
+
+
+
+
+## 3. 근로자 기준
+| ![이력서](https://github.com/user-attachments/assets/632ef3e8-7ea6-4193-a291-e56b1b8ab156) | ![사인등록](https://github.com/user-attachments/assets/76abfacd-08a7-4308-90c0-3298db262361) | ![비자등록](https://github.com/user-attachments/assets/637254cf-efb0-43b3-8c7e-6e06b749d1a7) | 
+| :------: |  :------: |   :------: | 
+| 이력서 등록 |  사인 등록 |외국인 번호 및 비자발급 일자 등록 | 
+
+<p>근로자는 지원을 하기 위해서 필수적으로 근로자 마이페이지에서 '이력서', '사인', '외국인 번호 및 비자 발급일자를 등록해야합니다.  만약 등록을 하지 않은 상태에서 지원하기를 클릭하게되면, 등록을 유도하는 페이지가 보여집니다.</p> <br><br>
+
+
+### 3.1. 지원서 작성
+| ![프로세스](https://github.com/user-attachments/assets/8461bde0-fa38-4cfc-9548-25dc49892aac) | ![지원서](https://github.com/user-attachments/assets/7aaa17c3-9028-4057-9270-4fdbbab36775) | 
+| :------: |  :------: |  
+| 지원 프로세스 |  지원서 작성 |  
+
+
+<p> 지원자가 지원하기를 클릭하면 채용 전반에 대한 안내문구, 특히 근로계약서에 대한 주의사항을 담은 페이지가 뜹니다. 지원자가 지원서 작성하기 버튼을 클릭하면, 지원서 작성 페이지로 이동합니다. 지원자는 이름, 주소, 전화번호, 지원동기를 작성하게 됩니다.. </p> <br><br>
+
+
+### 3.2. 마이페이지에서 지원 현황 확인
+| ![마이페이지_근로자](https://github.com/user-attachments/assets/b3a6d899-97d5-4d08-a7e8-d0955c467277) |
+| :------: |
+
+<p> 지원서 작성 이후의 과정은  `지원서 검토중 → (고용주의 근로계약서 작성) → 근로 계약서 서명하기 → 근로계약서 다운로드` 의 순서로 진행됩니다.만약 고용주가 채용을 하지않고 구인글 마감을 하면 `채용 마감` 버튼이 렌더링 됩니다. </p> <br><br>
+
+
+### 3.3. 근로계약서 작성
+
+| ![상태](https://github.com/user-attachments/assets/a91f722e-17eb-4271-b5c9-b5233693fc0e) |
+| :------: |
+| ![근로](https://github.com/user-attachments/assets/e774de9e-6ad2-4334-8c29-4583bb85b6ac) |
+| 계약서 |
+
+<p> 고용주가 채용을 선택하여 근로계약서 작성했다면, 근로자는 근로계약서 서명하기 버튼을 통해 근로계약서 내용을 확인할 수 있습니다.  근로자가 서명 후 제출하기 버튼을 누르면 채용 과정이 마무리 됩니다. </p>
+
+
+<br><br><br/><br/>
+
+
+
+## 🔥기능 구현 세부 사항
 
 ### 👩🏻‍💻 김민지_BE
    
@@ -184,9 +288,9 @@
 | 공통컴포넌트 Card | 공통컴포넌트 Card의 style 지정 | Card 형태의 style을 작성하고, children을 Props로 받아 재사용성을 높이고자 하였습니다. |
 | 공통컴포넌트 Button | Button의 design을 특정(default, outlined, textbutton, deactive)하여 개발 | default, outlined, textbutton, deactive 형태의 Button을 만들어 design Props로 전달받고, 각 design에 해당하는 스타일과 애니메이션을 적용하였습니다. | 
 
-<br><br><hr><br/><br/>
+<br><br><br/><br/>
 
-## 고민한 점 및 어려웠던 점
+## 🤔고민한 점 및 어려웠던 점
 
 
 ### 👩🏻‍💻 김민지_BE

@@ -1,47 +1,29 @@
 
 
 <div align='center'>
-<img src='https://github.com/user-attachments/assets/a352c3e8-a4e9-4363-9ddf-12c5a5688e8c' width='450px'> 
+<img src='https://github.com/user-attachments/assets/19e66683-ab0a-4e66-a50f-7a1370956ef8'> 
 
-<h3>취업 매칭 서비스 : Hire Higher</h3>
+<br>
 
-<i><p>한국에서의 시작을 더 높이</p></i>
+<h3>외국인 근로자 취업 매칭 서비스 : Hire Higher 🐧</h3>
+<i><p>한국에서의 시작을 더 높이!</p></i>
+</div>
 
-</div> <br><br>
+<br><br>
 
+# 🍪 개요
+- 2024 카카오 테크 캠퍼스 2기 충남대 18조 내가먹은쿠키 팀의 프로젝트입니다.
+- 개발 기간 : 2024년 9월 2일 ~ 2024년 11월 15일
+- 기술 스택
+	- Frontend : React, TypeScript, Css
+   	- Backend : Springboot
 
-## 🐧프로젝트 소개
-
-### 서비스 소개
-
-
-<p><strong>Hire higher</strong>는 외국인 근로자와 고용주 간의 안전한 채용 계약을 지원하는 서비스입니다.
-구인글 게시판과 다국어 표준 근로계약서, 서명 시스템을 통해 양측의 신뢰성을 확보하며, 고용주는 근로자의 비자 정보를 검증하여 안전하게 채용을 진행할 수 있습니다.</p><br/>
-
-
-### 개발기간
-<p>2024년 9월 2일 ~ 2024년 11월 15일</p><br/>
-
-### 링크
-**배포링크(FE)**: https://hire-higher.netlify.app/
-
-**배포링크(BE)**: https://api.hirehigher.site/
-
-**노션링크**: [https://kibong.notion.site/e9eeabea8c0d415eaf24f5b4d67deceb](https://www.notion.so/e9eeabea8c0d415eaf24f5b4d67deceb?pvs=21)
-
-**API 문서:** [https://kibong.notion.site/API-04da71bf714b4e58bfe173722b580720](https://www.notion.so/04da71bf714b4e58bfe173722b580720?pvs=21)
-
-**코드 컨벤션:** [https://www.notion.so/kibong/1c868a333bac4cffb60c1befc589c644](https://www.notion.so/1c868a333bac4cffb60c1befc589c644?pvs=21)
-
-**커밋 컨벤션:** [https://www.notion.so/kibong/9fa2336e3b994e90b26d8cc3fd0f71ff](https://www.notion.so/9fa2336e3b994e90b26d8cc3fd0f71ff?pvs=21)
-
-**이슈:** [https://www.notion.so/kibong/Issues-b58e26b269824d6a8943b3b90965cf21](https://www.notion.so/b58e26b269824d6a8943b3b90965cf21?pvs=21)
-
-<br><br><br/><br/>
-
+<br>
 
 ## 👋 팀 소개
 
+<div align='center'>
+<img src='https://github.com/user-attachments/assets/a352c3e8-a4e9-4363-9ddf-12c5a5688e8c' width='450px'> 
 
 | **강병현** | **김지안** | **이용진** | **임세빈** | **김민지** | **배민수** | **이택** | **이은경** |
 | :------: |  :------: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -51,24 +33,61 @@
 
 프론트엔드 4인, 백엔드 4인으로 이루어진 8인 팀 내가먹은쿠키 입니다.
 
-<br><br><br/><br/>
+</div>
+
+<br><br>
+
+# 🐧 [Hire Higher](https://hire-higher.netlify.app/)
+
+<p><strong>Hire higher</strong>는 <u>외국인 근로자와 고용주 간의 안전한 채용 계약을 지원</u>하는 서비스입니다.</p>
+
+- 타겟 사용자 : 외국인 노동자를 구인하는 '고용주' / 한국에서 일을 하기 원하는 '외국인 노동자'
+- 다국어 표준 근로계약서, 서명 시스템, 비자 등록 및 검증 시스템을 통한 양측의 신뢰성 확보가 Hire Higher의 주 목적입니다.
+
+<br/>
+
+### 💭 서비스 기획 의도
+#### 한국에서 일하는 외국인 노동자는, 근로의 전 과정에서 불리함을 느끼기 쉽습니다.
+언어 및 문화적인 측면에서 의사소통이 어려울 수 있고, 그렇지 않다 하더라도 한국의 근로 법규를 인지하는 것에도 어려움이 있습니다.
+#### 한국에서 외국인 노동자를 고용하려는 사업주는 외국인 노동자를 쉽게 고용할 수 없습니다.
+외국인을 고용하기 위해서는 한국인의 신분을 검증할 때와 다른 과정을 거쳐야하고, 때문에 해외 노동 근로자에게 신뢰성을 느끼기가 비교적 어렵습니다.
+
+<br>
+
+<i>이러한 페인포인트를 분석하여, <strong>외국인 근로자와 한국 고용주 사이의 신뢰를 구축할 수 있는 구인구직 및 근로계약서 작성 서비스</strong>를 기획하였습니다.</i>
+
+<br><br>
+
+## 🔗 Link
+
+- **배포링크(FE)**: https://hire-higher.netlify.app/
+- **배포링크(BE)**: https://api.hirehigher.site/
+
+### 개발 문서
+
+| [✨ 최종 기획안](https://www.notion.so/e19c2a4070644375bd6d1c4ece5ee0a9?pvs=21) | [📖 API 문서](https://www.notion.so/API-04da71bf714b4e58bfe173722b580720?pvs=21) | [🖊 코드 컨벤션](https://www.notion.so/1c868a333bac4cffb60c1befc589c644?pvs=21) | [✉ 커밋 컨벤션](https://www.notion.so/9fa2336e3b994e90b26d8cc3fd0f71ff?pvs=21) | [📢 이슈 스페이스](https://www.notion.so/Issues-b58e26b269824d6a8943b3b90965cf21?pvs=21) |
+| --- | --- | --- | --- | --- |
+
+### 팀 스페이스
+
+| [🏠 노션 팀 스페이스](https://www.notion.so/e9eeabea8c0d415eaf24f5b4d67deceb?pvs=21) | [🍪 카테캠 스페이스](https://www.notion.so/689ab666ad3747cabc1aeaec6b808037?pvs=21) | [🎨 피그마](https://www.figma.com/design/c5P6a2drtrzCHQGIPxtJtS/내가-먹은-쿠키-와이어프레임?node-id=0-1&t=Nnvlv3gnT2d7uodK-1) |
+| --- | --- | --- |
+
+<br><br>
  
-## ⚙️ 시스템 아키텍처
+## ⚙️ 전체 시스템 아키텍처
 | ![아키텍처](https://github.com/user-attachments/assets/c9566d79-e829-4311-8bdb-c36dbc9433e4) |
 | :------: |
 
-<br><br><br/><br/>
-
+<br><br>
 
 ## 🔨 ERD
 |![ERD](https://github.com/user-attachments/assets/374c145a-9ab3-4edb-881a-92010cdbef2f) |
 | :------: |
 
+<br><br><br>
 
-<br><br><br/><br/>
-
-## 📃 주요기능 소개
-
+# 📃 주요기능 소개
 ## 1. 공통 (사업주/근로자) 홈페이지
 ### 1.1 한국어/베트남 번역 기능
 | ![번역](https://github.com/user-attachments/assets/167666fd-950a-4d87-94c8-eaf7a7b92e7a) |
@@ -95,9 +114,7 @@
 
 <p> 미가입자와 근로자는 고용주가 등록한 구인 정보를 확인할 수 있으며, 근로자는 해당 페이지에서 지원서를 작성하여 제출할 수 있습니다. </p> <br><br>
 
-
-
-
+<br><br>
 
 ## 2. 고용주 기준
 ### 2.1. 회사 등록
@@ -106,14 +123,11 @@
 
 <p>고용주는 본인이 운영하는 회사를 등록할 수 있습니다. </p> <br><br>
 
-
-
 ### 2.2. 구인글 등록
 |![구인등록](https://github.com/user-attachments/assets/213b9a8f-66a8-4bc6-8091-26dcd9ff0cf8) |
 | :------: |
 
 <p>본인이 등록한 회사에 대한 구인 글을 등록합니다. 해당 구인글을 홈페이지 메인 화면에 등록되며, 서비스를 이용하는 사용자들이 해당 구인글을 볼 수 있습니다. </p> <br><br>
-
 
 ### 2.3. 마이페이지, 등록 회사 확인 및 지원자 목록 확인
 
@@ -121,9 +135,9 @@
 | :------: |  :------: |
 | 고용주 마이페이지 |  지원자 목록 확인|
 
-<p>고용주는 마이페이지에서 등록한 회사 목록을 조회하고, 회사 선택 시 구인글 목록을, 구인글 선택 시 지원자 목록을 확인할 수 있습니다.</p> <br><br>
+<p>고용주는 마이페이지에서 등록한 회사 목록을 조회하고, 회사 선택 시 구인글 목록을, 구인글 선택 시 지원자 목록을 확인할 수 있습니다.</p>
 
-
+<br><br>
 
 ### 2.4. 이력서 및 지원서 확인
 
@@ -133,18 +147,15 @@
 
 <p>고용주는 지원자 목록에서 각 지원자의 지원서를 확인할 수 있으며, 채용을 원하는 지원자에 대해서는 '계약하기' 버튼을 통해 채용 절차를 진행할 수 있습니다.</p> <br><br>
 
-
 ### 2.5. 근로계약서 작성
 
 | ![근로계약서안내](https://github.com/user-attachments/assets/8ba52281-05a3-4eb6-8102-e6eed73277d5) | ![근로계약서](https://github.com/user-attachments/assets/c46bf27e-a229-4dd0-a004-652e8d66a28b) |
 | :------: |  :------: |
 | 고용주 주의사항 |  근로계약서 작성 |
 
-<p> 채용 과정은 근로계약서 작성으로 시작됩니다. 고용주는 계약서 작성 전 모달에서 지원자의 외국인 등록번호와 비자 발급일자를 확인하고, 이 정보를 토대로 Hi Korea에서 정보를 검증할 수 있습니다. 고용주가 근로계약서 작성 및 사인을 등록하면, 근로자에게 계약서 내용이 전달되며, 근로자가 최종 서명하면 채용이 완료됩니다. </p> <br><br>
+<p> 채용 과정은 근로계약서 작성으로 시작됩니다. 고용주는 계약서 작성 전 모달에서 지원자의 외국인 등록번호와 비자 발급일자를 확인하고, 이 정보를 토대로 Hi Korea에서 정보를 검증할 수 있습니다. 고용주가 근로계약서 작성 및 사인을 등록하면, 근로자에게 계약서 내용이 전달되며, 근로자가 최종 서명하면 채용이 완료됩니다. </p>
 
-
-
-
+<br><br>
 
 ## 3. 근로자 기준
 | ![이력서](https://github.com/user-attachments/assets/632ef3e8-7ea6-4193-a291-e56b1b8ab156) | ![사인등록](https://github.com/user-attachments/assets/76abfacd-08a7-4308-90c0-3298db262361) | ![비자등록](https://github.com/user-attachments/assets/637254cf-efb0-43b3-8c7e-6e06b749d1a7) | 
@@ -179,12 +190,12 @@
 
 <p> 고용주가 채용을 선택하여 근로계약서 작성했다면, 근로자는 근로계약서 서명하기 버튼을 통해 근로계약서 내용을 확인할 수 있습니다.  근로자가 서명 후 제출하기 버튼을 누르면 채용 과정이 마무리 됩니다. </p>
 
+<br><br><br>
 
-<br><br><br/><br/>
+# 🔥 개인별 기능 구현 사항
+각 팀원 별 구현을 담당한 기능을 나열합니다.
 
-
-
-## 🔥기능 구현 세부 사항
+<br>
 
 ### 👩🏻‍💻 김민지_BE
    
@@ -309,8 +320,11 @@
 
 <br><br><br/><br/>
 
-## 🤔고민한 점 및 어려웠던 점
 
+# 🤔고민한 점 및 어려웠던 점
+프로젝트를 진행하면서 각자 깊게 고민하고 해결하려 노력했던 점에 대한 회고입니다.
+
+<br>
 
 ### 👩🏻‍💻 김민지_BE
 

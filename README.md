@@ -14,9 +14,10 @@
 # 🍪 개요
 - 2024 카카오 테크 캠퍼스 2기 충남대 18조 내가먹은쿠키 팀의 프로젝트입니다.
 - 개발 기간 : 2024년 9월 2일 ~ 2024년 11월 15일
-- 기술 스택
-	- Frontend : React, TypeScript, Css
-   	- Backend : Springboot
+
+### ⚙ 기술스택
+[![stackticon](https://firebasestorage.googleapis.com/v0/b/stackticon-81399.appspot.com/o/images%2F1731655835227?alt=media&token=264f98a1-739d-4937-b34b-f9f4b23ae382)](https://github.com/msdio/stackticon)
+[![stackticon](https://firebasestorage.googleapis.com/v0/b/stackticon-81399.appspot.com/o/images%2F1731655964832?alt=media&token=82ac34a2-c255-48c1-87ea-c531e1b436cb)](https://github.com/msdio/stackticon)
 
 <br>
 
@@ -62,7 +63,7 @@
 
 - **배포링크(FE)**: https://hire-higher.netlify.app/
 - **배포링크(BE)**: https://api.hirehigher.site/
-
+  
 ### 개발 문서
 
 | [✨ 최종 기획안](https://www.notion.so/e19c2a4070644375bd6d1c4ece5ee0a9?pvs=21) | [📖 API 문서](https://www.notion.so/API-04da71bf714b4e58bfe173722b580720?pvs=21) | [🖊 코드 컨벤션](https://www.notion.so/1c868a333bac4cffb60c1befc589c644?pvs=21) | [✉ 커밋 컨벤션](https://www.notion.so/9fa2336e3b994e90b26d8cc3fd0f71ff?pvs=21) | [📢 이슈 스페이스](https://www.notion.so/Issues-b58e26b269824d6a8943b3b90965cf21?pvs=21) |
@@ -73,7 +74,11 @@
 | [🏠 노션 팀 스페이스](https://www.notion.so/e9eeabea8c0d415eaf24f5b4d67deceb?pvs=21) | [🍪 카테캠 스페이스](https://www.notion.so/689ab666ad3747cabc1aeaec6b808037?pvs=21) | [🎨 피그마](https://www.figma.com/design/c5P6a2drtrzCHQGIPxtJtS/내가-먹은-쿠키-와이어프레임?node-id=0-1&t=Nnvlv3gnT2d7uodK-1) |
 | --- | --- | --- |
 
-<br><br>
+#### 테스트 계정
+- 고용주 계정 : hirehigher.r@gmail.com / hirehigher18!
+- 근로자 계정 : hirehigher.e@gmail.com / hirehigher18!
+
+<br><br><br>
  
 ## ⚙️ 전체 시스템 아키텍처
 | ![아키텍처](https://github.com/user-attachments/assets/c9566d79-e829-4311-8bdb-c36dbc9433e4) |
@@ -88,27 +93,42 @@
 <br><br><br>
 
 # 📃 주요기능 소개
-## 1. 공통 (사업주/근로자) 홈페이지
-### 1.1 한국어/베트남 번역 기능
+### 1. 공통 (사업주/근로자) 홈페이지
+#### 1.1. 메인 페이지
+사용자는 메인페이지에서 구인글 목록을 확인할 수 있습니다.
+- 미가입 사용자 및 근로자는 왼쪽 사진, 고용주는 오른쪽 사진과 같은 메인페이지를 확인할 수 있습니다.
+- 고용주로 로그인한 경우 배너를 통해 공고글 등록 페이지로 이동할 수 있습니다.
+- 공고글 목록 우측 상단의 정렬 기능을 통해 '최신순 / 급여 많은 순'으로 공고글을 정렬할 수 있습니다.
+
+| ![home](https://github.com/user-attachments/assets/bf91584c-52b8-48c9-a880-dcf8d618866c) | <img src="https://github.com/user-attachments/assets/ed4234b1-92d5-4c5b-b98f-6ad0e8206f45" alt="선택" /> |
+| :------: |:------: |
+
+<br>
+
+#### 1.2. 한국어/베트남 번역 기능
+사용자는 헤더에 위치한 번역 옵션을 이용하여 한국어 또는 베트남어로 페이지를 번역할 수 있습니다.
 | ![번역](https://github.com/user-attachments/assets/167666fd-950a-4d87-94c8-eaf7a7b92e7a) |
 | :------: |
 
-<p> 사용자(고용주/근로자)는 헤더에 위치한 번역 옵션에서 한국어 또는 베트남어를 선택할 수 있으며, 선택한 언어로 모든 페이지가 번역됩니다. </p> <br><br>
+<br><br>
 
-### 1.2 가입 및 로그인
+#### 1.2 가입 및 로그인
+사용자는 본인의 Google 계정으로 로그인 및 가입을 진행할 수 있습니다.
 
 | <img src="https://github.com/user-attachments/assets/4ebbda52-ab60-4767-a18e-e5311c3a74f0" alt="로그인" /> |
 | :------: |
 
-<p> 사용자(고용주/근로자)는 Google 계정을 통해 로그인 및 가입을 진행할 수 있습니다. 처음 서비스를 이용하는 경우 가입 절차가 진행되며, 기존에 가입한 사용자는 자동으로 로그인이 완료되며 메인 페이지로 이동됩니다. </p> <br><br>
-
-### 1.3 가입 및 로그인
+- 서비스에 처음 가입한 경우 고용주 혹은 근로자 역할을 선택함으로써 가입절차를 진행합니다.
+- 추후 마이페이지 이동 시 역할에 맞는 마이페이지로 이동합니다.
+- 기존에 가입한 사용자는 자동으로 로그인이 완료되며 메인페이지로 이동합니다.
+- 
 | <img src="https://github.com/user-attachments/assets/4055ae74-abd6-4f6d-b047-8cb3bc0b554c" alt="선택" /> |
 | :------: |
 
-<p> 처음 서비스에 접근하는 사용자는 가입 페이지로 이동하여 고용주인지 근로자인지 선택한 후 가입 절차를 진행합니다. </p> <br><br>
 
-### 1.4 구인글 상세 
+### 1.3 구인글 상세
+사용자는 메인페이지에서 고용주들이 등록한 구인글을 확인할 수 있습니다.
+- 
 | ![recruitDetail](https://github.com/user-attachments/assets/b7265872-e8ca-4a97-bf0e-7b97f14574da) |
 | :------: |
 
@@ -186,7 +206,7 @@
 | ![상태](https://github.com/user-attachments/assets/a91f722e-17eb-4271-b5c9-b5233693fc0e) |
 | :------: |
 | ![근로](https://github.com/user-attachments/assets/e774de9e-6ad2-4334-8c29-4583bb85b6ac) |
-| 계약서 |
+|계약서 |
 
 <p> 고용주가 채용을 선택하여 근로계약서 작성했다면, 근로자는 근로계약서 서명하기 버튼을 통해 근로계약서 내용을 확인할 수 있습니다.  근로자가 서명 후 제출하기 버튼을 누르면 채용 과정이 마무리 됩니다. </p>
 
@@ -321,7 +341,7 @@
 <br><br><br/><br/>
 
 
-# 🤔고민한 점 및 어려웠던 점
+# 🤔 고민한 점 및 어려웠던 점
 프로젝트를 진행하면서 각자 깊게 고민하고 해결하려 노력했던 점에 대한 회고입니다.
 
 <br>

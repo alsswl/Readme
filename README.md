@@ -64,6 +64,7 @@
 - **배포링크(FE)**: https://hire-higher.netlify.app/
 - **배포링크(BE)**: https://api.hirehigher.site/
 - **스토리북 배포링크** : https://66e528a32564a3669b75354b-qfpivukyah.chromatic.com/
+- 테스트 계정 👉 [테스트 계정 작성 Docs](https://docs.google.com/document/d/1VoffobzXcm2mFtgs4jn7Y1EFjfPo9qu0/edit?usp=sharing&ouid=106651828097466189075&rtpof=true&sd=true)
   
 ### 개발 문서
 
@@ -74,10 +75,6 @@
 
 | [🏠 노션 팀 스페이스](https://www.notion.so/e9eeabea8c0d415eaf24f5b4d67deceb?pvs=21) | [🍪 카테캠 스페이스](https://www.notion.so/689ab666ad3747cabc1aeaec6b808037?pvs=21) | [🎨 피그마](https://www.figma.com/design/c5P6a2drtrzCHQGIPxtJtS/내가-먹은-쿠키-와이어프레임?node-id=0-1&t=Nnvlv3gnT2d7uodK-1) |
 | --- | --- | --- |
-
-#### 테스트 계정
-- 고용주 계정 : hirehigher.r@gmail.com / hirehigher18!
-- 근로자 계정 : hirehigher.e@gmail.com / hirehigher18!
 
 <br><br><br>
  
